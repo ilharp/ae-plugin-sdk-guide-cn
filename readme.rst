@@ -1,14 +1,24 @@
-Description
+After Effects 插件 SDK 指南（中文版）
 ################################################################################
 
-Repo hosting the After Effects SDK Guide RST docs, linked into a http://readthedocs.io system hosted at http://ae-plugin-sdk.aenhancers.com
+这个项目存放了 RST 格式的 After Effects 插件 SDK 指南文档，并且部署在 https://ae-plugin-sdk-cn.vbox.moe
 
 ----
 
-Contribution
+贡献
 ################################################################################
 
-Contributors are welcome and encouraged to suggest fixes, adjustments, notes/warnings, and anything else that may help the project.
+我们欢迎贡献。查看下面的内容以了解参与贡献的流程。
+
+在参与翻译之前，请先前往 `翻译计划概要 <https://github.com/Afanyiyu/ae-plugin-sdk-guide-cn/issues/1>`_ 了解目前翻译的主要方向和进度，然后在下方回复以申领任务。这样可以避免任务冲突或重复的提交。
+
+推荐通过发起带有 ``WIP`` 字样的提交请求来确定自己的任务。发起了 PR 之后，你就可以在 `项目 <https://github.com/Afanyiyu/ae-plugin-sdk-guide-cn/projects/1>`_ 中进行翻译进度的跟踪了。推荐使用 ``author-name/section-name`` 作为源分支名称。
+
+其他一些错别字的修改或小的修改可以直接开启 PR。
+
+进行修改时，请务必保证自己的修改是最小的。不要更改文档的结构和其他与文本无关的内容。
+
+RST 格式指南可以参考下方的引用，也可以参考 `reStructuredText 简介 <https://zh-sphinx-doc.readthedocs.io/en/latest/rest.html>`_。
 
 ----
 
@@ -81,7 +91,7 @@ Try to keep one piece of data per note, for easier parsing.
 
 ----
 
-Build HTML Locally
+本地构建 HTML
 ################################################################################
 
 You may want to build the HTML locally before pushing, in order to ensure that the result is what you'd expect. These files aren't included in the git repo, nor are they used online; this is solely to create a local, offline version of the online docs.
@@ -93,9 +103,7 @@ You may want to build the HTML locally before pushing, in order to ensure that t
 
 ----
 
-Licensing & Ownership
+许可
 ################################################################################
 
-This project exists for educational purposes only.
-
-All content is copyright Adobe Systems Incorporated.
+本项目只限学习研究使用。一切内容之权利均归 Adobe Systems Incorporated 所有。
