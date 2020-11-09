@@ -1,16 +1,16 @@
-Welcome to the Adobe After Effects SDK Guide!
+欢迎来到 Adobe After Effects SDK 指南！
 ################################################
 
 .. toctree::
   :maxdepth: 1
-  :caption: About
+  :caption: 关于
 
   about
   history
 
 .. toctree::
   :maxdepth: 1
-  :caption: Introduction
+  :caption: 介绍
 
   intro/intro
   intro/what-can-i-do
@@ -30,7 +30,7 @@ Welcome to the Adobe After Effects SDK Guide!
 
 .. toctree::
   :maxdepth: 1
-  :caption: Effect Basics
+  :caption: 效果基础
 
   effect-basics/effect-basics
   effect-basics/entry-point
@@ -44,7 +44,7 @@ Welcome to the Adobe After Effects SDK Guide!
 
 .. toctree::
   :maxdepth: 1
-  :caption: Effect Details
+  :caption: 效果详细内容
 
   effect-details/multi-frame-rendering-in-ae
   effect-details/effect-details
@@ -75,7 +75,7 @@ Welcome to the Adobe After Effects SDK Guide!
 
 .. toctree::
   :maxdepth: 1
-  :caption: Effect UI & Events
+  :caption: 效果 UI & 事件
 
   effect-ui-events/effect-ui-events
   effect-ui-events/PF_EventExtra
@@ -86,7 +86,7 @@ Welcome to the Adobe After Effects SDK Guide!
 
 .. toctree::
   :maxdepth: 1
-  :caption: Audio
+  :caption: 音频
 
   audio/audio
   audio/global-outflags
@@ -97,7 +97,7 @@ Welcome to the Adobe After Effects SDK Guide!
 
 .. toctree::
   :maxdepth: 1
-  :caption: AEGPs
+  :caption: AEGP
 
   aegps/aegps
   aegps/overview
@@ -109,14 +109,14 @@ Welcome to the Adobe After Effects SDK Guide!
 
 .. toctree::
   :maxdepth: 1
-  :caption: Artisans
+  :caption: Artisan
 
   artisans/artisans
   artisans/artisan-data-types
 
 .. toctree::
   :maxdepth: 1
-  :caption: AEIOs
+  :caption: AEIO
 
   aeios/aeios
   aeios/calling-sequence
@@ -137,3 +137,14 @@ Welcome to the Adobe After Effects SDK Guide!
   ppro/premiere-elements
   ppro/unsupported-features
   ppro/other-hosts
+
+----
+
+关于翻译项目
+################################################
+
+本站点是 `英文原站点 <https://ae-plugin-sdk-guide.readthedocs.io/>`_ 的中文翻译版。
+
+若要参与贡献或改进翻译，请查看 `翻译项目 <https://github.com/Afanyiyu/ae-plugin-sdk-guide-cn>`_。
+
+本项目只限学习研究使用。一切内容之权利均归 Adobe Systems Incorporated 所有。
