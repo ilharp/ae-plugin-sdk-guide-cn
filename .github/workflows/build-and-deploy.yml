@@ -48,5 +48,5 @@ jobs:
         git config --global user.name "Il Harper Deploy Bot"
         git init
         git add -A
-        git commit -m 'chore':' 🤖 Vercel Deploy in GitHub Actions'
+        git commit -m 'Vercel Deploy in GitHub Actions'
         git push -f https://${VERCEL_DEPLOY_TOKEN}@github.com/Afanyiyu/ae-plugin-sdk-guide-cn-deploy.git master
