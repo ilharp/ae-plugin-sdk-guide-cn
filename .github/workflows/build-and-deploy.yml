@@ -49,4 +49,4 @@ jobs:
         git init
         git add -A
         git commit -m 'Vercel Deploy in GitHub Actions'
-        git push -f https://${VERCEL_DEPLOY_TOKEN}@github.com/Afanyiyu/ae-plugin-sdk-guide-cn-deploy.git master
+        git push -f https://$env:VERCEL_DEPLOY_TOKEN@github.com/Afanyiyu/ae-plugin-sdk-guide-cn-deploy.git master
