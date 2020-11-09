@@ -1,6 +1,6 @@
 .. _effect-ui-events/effect-ui-events:
 
-Effect UI & Events
+效果 UI & 事件
 ################################################################################
 
 Effects can provide custom UI in two areas: (1) the Effect Controls Window (custom ECW UI), and (2) the Composition or Layer Windows (Custom Comp UI).

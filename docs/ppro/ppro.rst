@@ -1,6 +1,6 @@
 .. _ppro/ppro:
 
-Premiere Pro & Other Hosts
+Premiere Pro 和其他宿主
 ################################################################################
 
 Adobe Premiere Pro and Adobe Premiere Elements both support the After Effects effect API as described in chapters 2, 3, and 5.

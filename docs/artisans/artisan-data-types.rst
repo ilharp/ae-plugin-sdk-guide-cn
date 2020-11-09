@@ -1,6 +1,6 @@
 .. _artisans/artisan-data-types:
 
-Artisan Data Types
+Artisan 数据类型
 ################################################################################
 
 Below are the data types most commonly used in the Artisan API.

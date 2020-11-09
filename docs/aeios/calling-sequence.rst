@@ -1,6 +1,6 @@
 .. _aeios/calling-sequence:
 
-Calling Sequence
+调用顺序
 ################################################################################
 
 As with all AEGPs, the entry point function exported in the plug-in's PiPL is called during launch. During this function, the AEIO must provide function pointers to required functions and describe their capabilities, then pass the appropriate structures to :ref:`AEGP_RegisterIO() <aegps/aegp-suites.AEGP_RegisterSuites>`.

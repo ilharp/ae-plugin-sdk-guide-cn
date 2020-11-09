@@ -1,6 +1,6 @@
 .. _intro/pipl-resources:
 
-PiPL Resources
+PiPL 资源
 ################################################################################
 
 Originating in Adobe Photoshop over two decades ago, Plug-In Property Lists, or PiPLs, are resources which provide basic information about a plug-in's behavior, without executing the plug-in. PiPLs have been largely supplanted within After Effects by ``PF_Cmd_GLOBAL_SETUP`` (see :ref:`effect-basics/command-selectors.global-selectors`) and dynamic outflags. However, for archaeological reasons, the behaviors indicated during ``PF_Cmd_GLOBAL_SETUP`` must agree with those in the PiPL.

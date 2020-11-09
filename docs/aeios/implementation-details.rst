@@ -1,6 +1,6 @@
 .. _aeios/implementation-details:
 
-Implementation Details
+实现详细内容
 ################################################################################
 
 Export Bit-Depth

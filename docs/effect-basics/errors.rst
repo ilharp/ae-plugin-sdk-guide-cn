@@ -1,6 +1,6 @@
 .. _effect-basics/errors:
 
-Errors
+错误
 ################################################################################
 
 Always, always, *always* (always!) return a ``PF_Err`` from ``main()``. Plug-ins must pass all errors back to After Effects.

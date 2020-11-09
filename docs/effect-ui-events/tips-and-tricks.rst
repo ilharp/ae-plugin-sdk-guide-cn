@@ -1,6 +1,6 @@
 .. _effect-ui-events/tips-and-tricks:
 
-Tips & Tricks
+提示和技巧
 ################################################################################
 
 UI Performance

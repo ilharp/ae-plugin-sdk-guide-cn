@@ -1,6 +1,6 @@
 .. _ppro/basic-host-differences:
 
-Basic Host Differences
+基本差异
 ################################################################################
 
 We've tried to provide robust compatibility for After Effects effect plug-ins in Premiere Pro.

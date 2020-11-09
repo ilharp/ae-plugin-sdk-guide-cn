@@ -1,6 +1,6 @@
 .. _intro/third-party-plug-in-hosts:
 
-Third-party Plug-in Hosts?
+第三方插件宿主？
 ################################################################################
 
 Some developers are wary of using each After Effects release's new API features, to maintain compatibility with hosts with partial implementations. You can distinguish between host applications by checking :ref:`effect-basics/PF_InData`>appl_id. After Effects uses the appl_id 'FXTC'.

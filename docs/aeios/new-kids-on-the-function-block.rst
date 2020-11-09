@@ -1,6 +1,6 @@
 .. _aeios/new-kids-on-the-function-block:
 
-New Kids On The Function Block
+函数块上的新成员
 ################################################################################
 
 During its main entry point function, each AEIO plug-in must fill in an AEIO_FunctionBlock, providing pointers to the functions After Effects will call for different file-related tasks.

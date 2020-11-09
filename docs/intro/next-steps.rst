@@ -1,6 +1,6 @@
 .. _intro/next-steps:
 
-Next Steps
+下一步
 ################################################################################
 
 You now have an understanding of what plug-ins are, what they can do, and how After Effects communicates with them.

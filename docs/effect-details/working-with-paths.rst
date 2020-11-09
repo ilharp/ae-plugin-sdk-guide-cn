@@ -1,6 +1,6 @@
 .. _effect-details/working-with-paths:
 
-Working With Paths
+使用路径
 ################################################################################
 
 Accessing Path Data

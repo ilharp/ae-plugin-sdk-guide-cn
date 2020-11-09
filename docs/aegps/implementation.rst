@@ -1,6 +1,6 @@
 .. _aegps/implementation:
 
-Implementation
+实现
 ################################################################################
 
 Because the functionality available through the AEGP API is so vast, and the integration with After Effects so complete, a good deal of design work is necessary to ensure that your plug-in behaves appropriately in all situations.

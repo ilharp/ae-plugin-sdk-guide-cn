@@ -1,6 +1,6 @@
 .. _ppro/bigger-differences:
 
-Bigger Differences
+其他差异
 ################################################################################
 
 As long as an effect only supports the basic ARGB_8u pixel format supported by After Effects, Premiere Pro will try to imitate the After Effects hosting behavior and hide various differences because of the different render pipeline architecture. But if an effect wants to support additional pixel formats, such as 32-bit RGB, be prepared to handle further divergent behavior.

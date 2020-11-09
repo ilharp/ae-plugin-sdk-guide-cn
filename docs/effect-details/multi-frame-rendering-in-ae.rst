@@ -1,6 +1,6 @@
 .. _effect-details/multi-frame-rendering-in-ae:
 
-Multi-Frame Rendering in AE
+AE 中的多帧渲染
 ################################################################################
 
 In order to take advantage of modern hardware with more CPU cores and threads, AE (currently only in Beta builds) now supports Multi-Frame rendering. Multi-Frame rendering allows multiple frames to be rendered concurrently thereby speeding up rendering and export of AE compositions.

@@ -1,6 +1,6 @@
 .. _effect-basics/entry-point:
 
-Entry Point
+入口点
 ################################################################################
 
 All communication between After Effects and an effect plug-in is initiated by After Effects, and it all happens by the host (After Effects) calling a single entry point function.

@@ -1,6 +1,6 @@
 .. _intro/whats-new:
 
-What's New
+新增功能
 ################################################################################
 
 If this is your first time developing an After Effects plug-in, you can skip the What's New section and go directly to :ref:`intro/how-to-start-creating-plug-ins`.

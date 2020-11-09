@@ -1,6 +1,6 @@
 .. _effect-ui-events/ui-callbacks:
 
-UI Callbacks
+UI 回调
 ################################################################################
 
 After Effects provides callbacks for transposing between coordinate systems, and obtaining OS-specific information about drawing contexts, without guesswork or asking the OS directly. Use these callbacks! Pointers to these callbacks are provided in PF_EventCallbacks. Use the macros in AE_EffectUI.h and AE_EffectCB.h to access these routines.

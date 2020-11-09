@@ -1,6 +1,6 @@
 .. _effect-details/parameters-floating-point-values:
 
-Parameters & Floating Point Values
+参数和浮点值
 ################################################################################
 
 We have something to admit to you; for years, even though we've given you 8 bit color values, we've internally used floating point representations behind your back.

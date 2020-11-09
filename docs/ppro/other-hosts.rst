@@ -1,6 +1,6 @@
 .. _ppro/other-hosts:
 
-Other Hosts
+其他宿主
 ################################################################################
 
 For third-party hosts, the Adobe policy remains:

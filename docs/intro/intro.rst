@@ -1,6 +1,6 @@
 .. _intro/intro:
 
-Introduction
+介绍
 ################################################################################
 
 Welcome to the Adobe® After Effects® Software Development Kit!

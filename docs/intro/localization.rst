@@ -1,6 +1,6 @@
 .. _intro/localization:
 
-Localization
+本地化
 ################################################################################
 
 Starting in CC, PF App Suite (:ref:`effect-details/useful-utility-functions`) adds ``PF_AppGetLanguage()`` to query the current language so that a plug-in can use the correct language string.

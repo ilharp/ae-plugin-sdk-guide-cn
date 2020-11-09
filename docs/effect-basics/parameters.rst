@@ -1,6 +1,6 @@
 .. _effect-basics/parameters:
 
-Parameters
+参数
 ################################################################################
 
 Parameters are streams of values that vary with time; the source image, sliders, angles, points, colors, paths, and any arbitrary data types the user can manipulate.

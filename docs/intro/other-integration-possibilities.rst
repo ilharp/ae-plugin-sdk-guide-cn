@@ -1,6 +1,6 @@
 .. _intro/other-integration-possibilities:
 
-Other Integration Possibilities
+其他可能的集成方式
 ################################################################################
 
 Although this SDK describes the majority of integration possibilities with After Effects, there are other possibilities not to be overlooked.

@@ -1,6 +1,6 @@
 .. _ppro/unsupported-features:
 
-Unsupported Features
+不支持的功能
 ################################################################################
 
 Premiere Pro is currently known to not support the following features of the After Effects API:

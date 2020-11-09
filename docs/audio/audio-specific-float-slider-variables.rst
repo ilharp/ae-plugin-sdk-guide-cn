@@ -1,6 +1,6 @@
 .. _audio/audio-specific-float-slider-variables:
 
-Audio-Specific Float Slider Variables
+特定于音频的浮点滑块变量
 ################################################################################
 
 ``PF_Param_FLOAT_SLIDERs`` contain several parameters not found in other sliders; flags, phase, and curve tolerance.

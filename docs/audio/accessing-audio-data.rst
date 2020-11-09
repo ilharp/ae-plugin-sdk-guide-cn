@@ -1,6 +1,6 @@
 .. _audio/accessing-audio-data:
 
-Accessing Audio Data
+访问音频数据
 ################################################################################
 
 Use ``PF_CHECKOUT_LAYER_AUDIO`` from :ref:`effect-details/interaction-callback-functions.interaction-callbacks` to retrieve an audio layer.

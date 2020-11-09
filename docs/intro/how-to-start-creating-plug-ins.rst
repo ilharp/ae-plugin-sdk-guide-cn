@@ -1,6 +1,6 @@
 .. _intro/how-to-start-creating-plug-ins:
 
-How To Start Creating Plug-ins
+如何开始开发插件
 ################################################################################
 
 Play!

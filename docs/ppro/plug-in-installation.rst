@@ -1,6 +1,6 @@
 .. _ppro/plug-in-installation:
 
-Plug-in Installation
+插件安装
 ################################################################################
 
 Use the common plug-in folder as described here: :ref:`intro/where-installers-should-put-plug-ins`.

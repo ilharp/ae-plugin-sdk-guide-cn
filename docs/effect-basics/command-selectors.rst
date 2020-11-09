@@ -1,6 +1,6 @@
 .. _effect-basics/command-selectors:
 
-Command Selectors
+命令选择器
 ################################################################################
 
 Commands are, simply, what After Effects wants your effect to do.

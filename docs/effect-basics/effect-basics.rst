@@ -1,6 +1,6 @@
 .. _effect-basics/effect-basics:
 
-Effect Basics
+效果基础
 ################################################################################
 
 This chapter will provide all the information you need to know to understand how a basic effect plug-in works.

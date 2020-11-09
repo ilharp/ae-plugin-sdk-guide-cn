@@ -1,6 +1,6 @@
 .. _effect-details/image-buffer-management-functions:
 
-Image Buffer Management Functions
+图像缓冲区管理函数
 ################################################################################
 
 Use these functions to create and destroy :ref:`effect-basics/PF_EffectWorld`, and to find out their bit-depth.

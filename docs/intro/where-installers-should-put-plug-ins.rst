@@ -1,6 +1,6 @@
 .. _intro/where-installers-should-put-plug-ins:
 
-Where Installers Should Put Plug-ins
+安装程序应将插件放在哪里？
 ################################################################################
 
 Installing your plug-ins in the common location will allow them to be loaded by Premiere Pro, if installed.

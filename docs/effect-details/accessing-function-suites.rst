@@ -1,6 +1,6 @@
 .. _effect-details/accessing-function-suites:
 
-Accessing the After Effects Function Suites
+访问 After Effects Function Suites
 ################################################################################
 
 If you are writing C++ code, accessing functions in our PICA function suites is a breeze, using the AEGP_SuiteHandler, which automatically acquires the suite when needed, and disposes of it when done. Just instantiate the handler like so::

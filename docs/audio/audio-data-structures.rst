@@ -1,6 +1,6 @@
 .. _audio/audio-data-structures:
 
-Audio Data Structures
+音频数据结构
 ################################################################################
 
 The following data types are used by After Effects to describe audio data.

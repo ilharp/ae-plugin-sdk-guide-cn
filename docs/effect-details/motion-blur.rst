@@ -1,6 +1,6 @@
 .. _effect-details/motion-blur:
 
-Motion Blur
+运动模糊
 ################################################################################
 
 Effects handle their own motion blur, using :ref:`PF_InData>shutter_angle <effect-basics/PF_InData.PF_InData-Members>` along with :ref:`PF_InData>shutter_phase <effect-basics/PF_InData.PF_InData-Members>`.

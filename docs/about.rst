@@ -1,6 +1,6 @@
 .. _about:
 
-About this Document
+关于这份文档
 ################################################################################
 
 This document has changed much over the years. Part encyclopedia, part how-to guide, with multiple sedimentary layers of accreted information from more than two decades of API development and refinement.

@@ -1,6 +1,6 @@
 .. _effect-details/interaction-callback-functions:
 
-Interaction Callback Functions
+交互回调函数
 ################################################################################
 
 While the un-macro'd function pointers are provided in :ref:`effect-basics/PF_InData`, use the provided macros to access them. See how stringent we are about deprecating macro usage? Let's let this be our little secret.
