@@ -1,7 +1,7 @@
 After Effects 插件 SDK 指南（中文版）
 ################################################################################
 
-这个项目存放了 RST 格式的 After Effects 插件 SDK 指南文档，并且部署在 http://ae-plugin-sdk-cn.vbox.moe
+这个项目存放了 RST 格式的 After Effects 插件 SDK 指南文档，并且部署在 https://ae-plugin-sdk-cn.vbox.moe
 
 ----
 
