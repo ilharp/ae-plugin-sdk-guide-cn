@@ -14,6 +14,8 @@ After Effects 插件 SDK 指南（中文版）
 
 推荐通过发起带有 ``WIP`` 字样的提交请求来确定自己的任务。发起了 PR 之后，你就可以在 `项目 <https://github.com/Afanyiyu/ae-plugin-sdk-guide-cn/projects/1>`_ 中进行翻译进度的跟踪了。推荐使用 ``author-name/section-name`` 作为源分支名称。
 
+建议在翻译术语和其他专业性的内容的时候查看 `翻译指南 <https://github.com/Afanyiyu/ae-plugin-sdk-guide-cn/issues/3>`_。
+
 其他一些错别字的修改或小的修改可以直接开启 PR。
 
 进行修改时，请务必保证自己的修改是最小的。不要更改文档的结构和其他与文本无关的内容。
