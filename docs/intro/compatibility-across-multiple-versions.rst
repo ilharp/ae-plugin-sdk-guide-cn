@@ -3,24 +3,27 @@
 跨版本的兼容性？
 ################################################################################
 
-Generally, you should compile your plug-ins with the latest After Effects SDK headers. This makes the latest suites and API functionality available to your plug-ins. When a new version of After Effects is released, you generally will not need to provide a new version unless you wish to take advantage of new functionality exposed through the new SDK. However, you should always test your plug-in in new versions of After Effects before claiming compatibility with new versions.
+app.version - 例如 11.0.1x12
+  app.build 编号 - 例如 12。
 
-You should test your plug-in thoroughly in each version of After Effects supported by your plug-in. If you need to add a conditional block of code to be run only in specific versions of After Effects, you can always check the API version in :ref:`effect-basics/PF_InData`.version for effects, or in the major and minor_versionL passed into your AEGP in the :ref:`aegps/implementation.entry-point`.
+通常，你应该使用最新的 After Effects SDK 来编译插件，这使你可以使用最新的套件和 API。一般情况下，当 AE 有新版本发布时，你并不需要提供一个新的版本，除非你希望使用新 SDK 中的新功能。但是，在声明自己的插件和新版本的 AE 完全兼容之前，你需要在新版本的 AE 中测试插件。
 
-For even more precise version checking, a plug-in can run a script using ``AEGP_ExecuteScript`` (:ref:`aegps/aegp-suites.AEGP_UtilitySuite`), querying one of the following attributes::
+你也需要在每一个你希望支持的 AE 版本中测试你的插件。如果你需要添加仅在某些 AE 版本中运行的代码，则可以在 :ref:`effect-basics/PF_InData`.version 中为效果插件查看 AE 版本，或是在 :ref:`aegps/implementation.entry-point` 中检查传递给你的 AEGP 插件的 major 和 minor_versionL 字段。
 
-  app.version - e.g. 11.0.1x12
-  app.buildNumber - e.g. 12.
+对于更精确的版本检查，插件可以运行脚本并调用使用 ``AEGP_ExecuteScript`` （:ref:`aegps/aegp-suites.AEGP_UtilitySuite`）来查询以下属性之一：
+
+  app.version - 例如 11.0.1x12
+  app.buildNumber - 例如 12。
 
 ----
 
 .. _intro/compatibility-across-multiple-versions.api-versions:
 
-API Versions
+API 版本
 ================================================================================
 
 +------------------------+--------------------------------------------------------------------------------------------------------------+----------------------+
-|      **Release**       |                                            **Effect API Version**                                            | **AEGP API Version** |
+|       **版本号**        |                                               **效果 API 版本**                                               |  **AEGP API 版本**  |
 +========================+==============================================================================================================+======================+
 | 15.0                   | 13.15                                                                                                        |                      |
 +------------------------+--------------------------------------------------------------------------------------------------------------+----------------------+
@@ -58,7 +61,7 @@ API Versions
 +------------------------+--------------------------------------------------------------------------------------------------------------+----------------------+
 | 7.0                    | 12.12                                                                                                        |                      |
 +------------------------+--------------------------------------------------------------------------------------------------------------+----------------------+
-| 6.5, 6.0               | 12.10 (Check for the presence of updated AEGP suites, should you need to differentiate between 6.0 and 6.5.) |                      |
+| 6.5, 6.0               | 12.10 （若要区分 6.0 和 6.5，请检查是否有更新的 AEGP 套件）                                                      |                      |
 +------------------------+--------------------------------------------------------------------------------------------------------------+----------------------+
 | 5.0                    | 12.5                                                                                                         |                      |
 +------------------------+--------------------------------------------------------------------------------------------------------------+----------------------+

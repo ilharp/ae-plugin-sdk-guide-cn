@@ -3,6 +3,6 @@
 下一步
 ################################################################################
 
-You now have an understanding of what plug-ins are, what they can do, and how After Effects communicates with them.
+现在，你已经了解了什么是插件、插件可以做什么以及 After Effects 如何与它们通信。
 
-Next, we will cover the :ref:`basics of effects plug-ins <effect-basics/effect-basics>`.
+接下来，我们将介绍 :ref:`basics of effects plug-ins <effect-basics/effect-basics>`。
