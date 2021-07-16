@@ -3,36 +3,36 @@
 调试插件
 ################################################################################
 
-The best way to learn the interaction(s) between After Effects and plug-ins is running the samples in your debugger. Spending some quality time in your compiler's debugger, and a sample project that closely resembles your plug-in, can really pay off.
+学习 After Effects 和插件之间交互的最好的方法就是在调试程序中运行示例插件。找一个和你的需求最接近的示例插件，然后在调试的时候多下点功夫，你将会受益匪浅。
 
-Once you've got the plug-in building directly into the plug-ins folder as explained above, here's how to specify After Effects as the application to run during debug sessions:
+当你如之前提到过的一样，将插件直接编译到插件文件夹中之后，就可以指定调试器运行 After Effects 了：
 
-On Windows:
+在 Windows 系统中：
 
-1) In the Visual Studio solution, in the Solution Explorer panel, choose the project you want to debug
-2) Right-click it and choose Set as StartUp Project
-3) Right-click it again and choose Properties
-4) In Configuration Properties > Debugging > Command, provide the path to the executable file of the host application the plug-ins will be running in (this may be After Effects or Premiere Pro)
-5) From there you can either hit the Play button, or you can launch the application and later at any point choose Debug > Attach to Process...
+1) 在 Visual Studio 里，使用「解决方案资源管理器」面板选择你想要调试的项目
+2) 右键点击并选择「设为启动项目」
+3) 再次右键点击你选择的项目并选择「属性」
+4) 在「配置属性 > 调试 > 命令（本地 Windows 调试器）」中，提供运行插件的应用程序的可执行文件的路径（这里的应用程序应该是 After Effects 或 Premiere Pro）
+5) 现在你可以点击 Play 按钮，或者你可以启动应用程序并稍后选择「调试 > 附加到进程…」
 
-On macOS:
+在 macOS 系统中:
 
-1) In Xcode, in the Project Navigator, choose the xcodeproj you want to debug
-2) Choose Product > Scheme > Edit Scheme...
-3) Under Run, in the Info tab, for Executable, choose the host application the plug-ins will be running in (this may be After Effects or Premiere Pro)
-4) From there you can either hit the Play button to build and run the current scheme, or you can launch the application and later at any point choose Debug > Attach to Process.
+1) 在 Xcode 中，于 Project Navigator 选择你想调试的 xcodeproj
+2) 选择 Project > Scheme > Edit Scheme...
+3) 在 Run 下的 Info 选项卡中，选择用来运行插件的应用程序（这里为 After Effects 或 Premiere Pro）
+4) 现在，你可以点击 Play 按钮来构建和运行当前的方案，或者启动应用程序并稍后选择 Debug > Attach to Process
 
 ----
 
 .. _intro/debugging-plug-ins.deleting-preferences:
 
-Deleting Preferences
+清理偏好设置
 ================================================================================
 
-During the course of developing a plug-in, your plug-in may pass settings information to After Effects, which is then stored in its preferences file.
+在开发学习插件的过程中，你的插件可能会给 After Effects 传输一些设置信息，这些信息会被储存在偏好设置文件之中。
 
-You may delete the preferences and restart After Effects with a clean slate by holding down Ctrl-Alt-Shift / Cmd-Opt-Shift during launch.
+你可以在 After Effects 启动时通过  Ctrl-Alt-Shift / Cmd-Opt-Shift 快捷键来清除偏好设置并以初始状态重新启动程序。
 
-On Windows, the preferences are stored here: ``[user folder]\AppData\Roaming\Adobe\After Effects\[version]\Adobe After Effects [version]-x64 Prefs.txt``
+在 windows 系统中，偏好文件被储存在以下路径中：``[user folder]\AppData\Roaming\Adobe\After Effects\[version]\Adobe After Effects [version]-x64 Prefs.txt``
 
-On macOS, they are stored here: ``~/Library/Preferences/Adobe/After Effects/[version]/Adobe After Effects [version]-x64 Prefs``
+在 macOS 系统中，则在以下路径：``~/Library/Preferences/Adobe/After Effects/[version]/Adobe After Effects [version]-x64 Prefs``
