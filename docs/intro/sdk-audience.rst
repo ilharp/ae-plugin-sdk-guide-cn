@@ -3,23 +3,23 @@
 SDK 受众
 ################################################################################
 
-You must be a proficient C/C++ programmer to write After Effects plug-ins. While we'll help with issues specific to the After Effects API, we can't help you learn your IDE or basic programming concepts.
+想要做 After Effects 插件的开发，你必须是一个娴熟的 C/C++ 程序员。因为我们虽然会帮你解决与 After Effect API 相关的问题，但并不会帮助你去学习 IDE 和基本的编程技能。
 
-This SDK guide assumes you understand After Effects from a user's perspective, and basic motion graphics terminology. If you don't, get the `Adobe After Effects Classroom in a Book <http://www.adobepress.com/store/adobe-after-effects-cc-classroom-in-a-book-2017-release-9780134665320>`__, or any of the other fine instructional books on the market. It will help you understand necessary
+这个 SDK 手册将认为你是一个熟悉 After Effects 和基本动态图像术语的用户。如果你对 AE 和相关术语还不甚了解，你可以通过 `Adobe After Effects Classroom in a Book <http://www.adobepress.com/store/adobe-after-effects-cc-classroom-in-a-book-2017-release-9780134665320>` 或商城中的其他书籍去学习一下。
 
-topics such as alpha channels, pixel aspect ratio, interlacing, color spaces, and more for After Effects.
+他会帮助你学习如 alpha 通道，像素纵横比，隔行扫描，颜色空间等必须掌握的概念。
 
 ----
 
-Development Requirements
+开发要求
 ================================================================================
 
-The system requirements for After Effects are here: https://helpx.adobe.com/after-effects/system-requirements.html
+After Effects 对系统的要求如下: https://helpx.adobe.com/after-effects/system-requirements.html
 
-If you require support for obsolete versions of the application or API, use an old SDK (which we don't maintain or provide). Six months after the current version is released, we will no longer provide or support the previous version's SDK.
+如果你需要旧版本的软件或 API 支持，请使用旧的 SDK （我们不再维护和提供的那种）。在当前版本发布六个月之后，我们将会停止提供与支持先前版本的 SDK。
 
-The SDK samples are created for Xcode 7.3 on macOS 10.11, and Microsoft Visual Studio 2015 update 3 on Windows 7 64 or Windows 10. Yes, we're being pretty stringent about using the required IDE. No, it's never pleasant to move to a new compiler, but no, we're not going to continue to help with older build environments.
+我们为 macOS 10.11 上的 Xcode 7.3，和 Windows 7 64 或 Windows 10 上的 Microsoft Visual Studio 2015 创建了 SDK 样板。是的，你可能发现了，我们对 IDE 的要求很严格。换成新的编译器不是个简单的事，我们也不会继续针对更老的开发环境提供帮助。
 
-In order to use Visual Studio, you may need to adjust some installation settings to install the components for compiling 64-bit plug-ins. Visual Studio Express may be used, but will also require an additional installation to compile 64-bit plug-ins, as described here: http://msdn.microsoft.com/en-us/library/9yb4317s.aspx
+想要使用 Visual Studio，你可能会需要调整一些安装设置，去下载一些用来编译 64 比特插件的组件。你可能会使用 Visual Studio Express，但你仍需下载一些额外的组件用来编译 64 比特的插件，正如以下所描述的： http://msdn.microsoft.com/en-us/library/9yb4317s.aspx
 
-To compile using newer versions of Xcode on newer versions of macOS, often all that is required is to update the Base SDK in the Build Settings.
+想要用更新版本的 Xcode 或 macOS 去编译的时候，基本上你只需要在 Build Settings （构建设置）中更新一下当前版本的 SDK 就可以了。 
