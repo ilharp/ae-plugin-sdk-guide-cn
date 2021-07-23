@@ -5,7 +5,7 @@ SDK 受众
 
 想要做 After Effects 插件的开发，你必须是一个娴熟的 C/C++ 程序员。因为我们虽然会帮你解决与 After Effect API 相关的问题，但并不会帮助你去学习 IDE 和基本的编程技能。
 
-这个 SDK 手册将认为你是一个熟悉 After Effects 和基本动态图像术语的用户。如果你对 AE 和相关术语还不甚了解，你可以通过 `Adobe After Effects Classroom in a Book <http://www.adobepress.com/store/adobe-after-effects-cc-classroom-in-a-book-2017-release-9780134665320>` 或商城中的其他书籍去学习一下。
+这个 SDK 手册将认为你是一个熟悉 After Effects 和基本动态图像术语的用户。如果你对 AE 和相关术语还不甚了解，你可以通过一本书： `Adobe After Effects Classroom in a Book <http://www.adobepress.com/store/adobe-after-effects-cc-classroom-in-a-book-2017-release-9780134665320>` 或商城中的其他书籍去学习一下。
 
 他会帮助你学习如 alpha 通道，像素纵横比，隔行扫描，颜色空间等必须掌握的概念。
 
